@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App from '../react/src/App';
 
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -7,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   if (reactElement) {
     ReactDOM.render(
-      <h1>Hello from React-Rails (webpacker) Boilerplate</h1>,
+      <App />,
       reactElement
     )
   }
